@@ -96,7 +96,7 @@ hr {
 .description-div {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 5%;
   margin-bottom: 50px;
 }
 .tools-img {
@@ -238,6 +238,10 @@ footer {
   .nav-menu-item {
     padding-right: 0;
     
+  }
+ 
+  .description-text {
+    font-size: 4vw;
   }
 
   
