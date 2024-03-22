@@ -107,6 +107,7 @@ hr {
   font-weight: bolder;
   font-style: italic;
   color: rgb(57, 55, 55);
+  margin-right: 30px;
 }
 .features {
   scroll-margin-top: 110px;
@@ -240,8 +241,8 @@ footer {
   }
 
   .description-text { 
-    padding-right: 20px;
+    margin-right: 20px;
   }
-  
+
 }
 
