@@ -236,12 +236,11 @@ footer {
     align-items: end;
   }
   .nav-menu-item {
-    padding-right: 0;
-    
+    padding-right: 0;    
   }
  
   .description-text {
-    font-size: 4vw;
+    font-size: 5vw;    
   }
 
   
