@@ -103,7 +103,7 @@ hr {
   width: 50vw;
 }
 .description-text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bolder;
   font-style: italic;
   color: rgb(57, 55, 55);
@@ -184,16 +184,23 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
   .abrir-menu, .cerrar-menu {
     display: block;
     border: none;
-    font-size: 1rem;
     background-color: transparent;
     cursor: pointer;
-    padding-right: 6px;
     color: rgb(214, 209, 209);
+  }
+
+  .abrir-menu {
+    font-size: 1.3rem;
+    padding-right: 4px;
+  }
+
+  .cerrar-menu {
+    font-size: 1.6rem;
   }
 
   .nav-bar {
@@ -207,12 +214,14 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    padding-top: 2.9rem;
+    padding-top: 2.5rem;
     padding-right: 2rem;
-    padding-bottom: 2rem;
-    background-color: rgb(80, 98, 133);
-
-
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    background-color: rgb(61, 78, 110);
+    border-radius: 5px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
 
   }
 
@@ -230,57 +239,9 @@ footer {
     
   }
 
-
-
-
-
- 
-  /*.nav {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+  .description-text { 
+    padding-right: 20px;
   }
-  .nav-menu {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    background-color: rgb(61, 78, 110);
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    left: 0;
-  }
-  .nav-menu-item {
-    font-size: 0.9rem;
-    width: max-content;
-    padding: 10px;
-  }
-  .nav-billy-item {
-    width: min-content;
-    font-size: 0.8rem;
-  }
-  body {
-    margin: 0px 20px 0 200px;
-  }
-  .features {
-    scroll-margin-top: 0;
-  }
-  .description-div {
-    display: flex;
-    flex-direction: column;
-  }
-  .tech01-img-div {
-    display: flex;
-    flex-direction: column;  
-  }
-  .tech02-img-div {
-    display: flex;
-    flex-direction: column;  
-  }
-  */
-
+  
 }
 
