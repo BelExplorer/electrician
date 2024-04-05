@@ -98,9 +98,11 @@ hr {
   align-items: center;
   gap: 5%;
   margin-bottom: 50px;
+  padding-top: 20px;
 }
 .tools-img {
   width: 50vw;
+  border-radius: 5px;
 }
 .description-text {
   font-size: 1.4rem;
@@ -164,6 +166,7 @@ hr {
   margin: 0 auto;
 }
 
+/* Footer */
 
 footer {
   background-color: rgb(61, 78, 110);
@@ -215,9 +218,11 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    padding-top: 2.5rem;
-    padding-right: 2rem;
-    padding-left: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
     padding-bottom: 3rem;
     background-color: rgb(61, 78, 110);
     border-radius: 5px;
