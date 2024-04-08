@@ -19,3 +19,18 @@ for (var i = 0; i < 3; i++) {
 document.querySelector("main").addEventListener("click", function() {
     navbar.classList.remove("visible");
 })
+
+/* SCROLL UP MENU */
+
+let ubicacionInicial = window.scrollY;
+window.onscroll = function() {
+    let desplazamientoActual = window.scrollY; 
+    if (ubicacionInicial >= desplazamientoActual) {
+        document.querySelector("#header").style.top = "0";
+    }
+    else {
+        document.querySelector("#header").style.top = "-120px";
+    }
+    ubicacionInicial = desplazamientoActual;
+}
+
