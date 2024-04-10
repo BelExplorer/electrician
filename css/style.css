@@ -229,8 +229,6 @@ footer {
     border-radius: 5px;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.4);
     transition: 0.3s;
-    
-
   }
 
   .nav-bar.visible {
@@ -246,7 +244,7 @@ footer {
 
   .nav-menu-item {
     padding-right: 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
  
   .description-text {
